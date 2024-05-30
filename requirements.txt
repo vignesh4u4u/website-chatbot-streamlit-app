@@ -1,0 +1,15 @@
+flask
+opencv-python
+huggingface_hub
+langchain_community
+langchain
+openai
+streamlit
+streamlit_option_menu
+firebase_admin
+mysql-connector-python
+gradio
+fastapi
+uvicorn
+
+
