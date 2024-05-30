@@ -11,6 +11,7 @@ streamlit
 streamlit_option_menu
 firebase_admin
 mysql-connector-python
+faiss-gpu
 gradio
 fastapi
 uvicorn
