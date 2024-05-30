@@ -1,6 +1,8 @@
 flask
 opencv-python
 huggingface_hub
+transformers
+sentence-transformers
 langchain_community
 langchain
 openai
