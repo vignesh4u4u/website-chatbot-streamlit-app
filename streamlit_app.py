@@ -3,6 +3,7 @@ import mysql.connector
 import streamlit as st
 import pandas as pd
 import requests
+import html5lib
 from bs4 import BeautifulSoup
 import warnings
 warnings.filterwarnings("ignore", category=UserWarning, module="transformers.utils.generic")
