@@ -11,5 +11,5 @@ mysql-connector-python
 gradio
 fastapi
 uvicorn
-
+bs4
 
