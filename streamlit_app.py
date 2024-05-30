@@ -18,7 +18,6 @@ from langchain.chains import LLMChain
 from langchain_core.prompts import PromptTemplate
 from langchain_community.llms import HuggingFaceEndpoint
 from langchain_community.vectorstores import FAISS
-from sentence_transformers import SentenceTransformer
 api_key=st.secrets["token"]
 os.environ["HUGGINGFACEHUB_API_TOKEN"] = api_key
 embeddings = HuggingFaceEmbeddings(model_name='sentence-transformers/all-MiniLM-L6-v2')
