@@ -1,4 +1,5 @@
 flask
+html5lib
 opencv-python
 huggingface_hub
 transformers
