@@ -7,6 +7,7 @@ import html5lib
 from bs4 import BeautifulSoup
 import warnings
 warnings.filterwarnings("ignore", category=UserWarning, module="transformers.utils.generic")
+warnings.filterwarnings("ignore", category=FutureWarning)
 
 from langchain.chains import LLMChain
 from langchain.prompts import PromptTemplate
